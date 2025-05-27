@@ -1,1 +1,18 @@
 # CS-465-Full-Stack-Development-I
+You have moved static HTML to templates with JSON to your static, customer-facing website. What advice would you give to a peer doing full stack development that would help them understand the key aspects of the coding involved in this module?
+
+There are a few important considerations when working with static HTML to templates that use JSON. When referencing data in your JSON files, be careful to utilize the appropriate syntax. It's crucial to avoid inadvertently overwriting your template files when dealing with them. Before using your data in your templates, it is crucial to ensure that it is legitimate and well-formed. When working with JSON data, make use of the appropriate template tags and syntax. Testing your templates before putting them on your website is always a smart idea. This will help detect any issues and make sure everything is operating as it should.
+
+There are a few important considerations to make while working with static HTML to templates using JSON to prevent any possible problems. First, when referencing data in your JSON files, it's critical to utilize the appropriate syntax. This will guarantee that your template files display and access your data correctly. 
+
+Additionally, make sure that any special characters in your JSON data are appropriately escaped. By doing this, you may avoid any possible mistakes during the rendering of your template files. It's crucial to use caution when working with templates to avoid inadvertently overwriting your template files. This may result in your website displaying improperly or even not loading at all. Test your template files before deploying them to your live site to prevent this. 
+
+By doing this, you can identify any possible mistakes before they affect your live site. You may steer clear of any possible problems when working with static HTML to templates using JSON by adhering to these easy guidelines. You can be sure that your site will display appropriately for every visitor by taking the effort to arrange your data correctly and test your template files.
+
+Before attempting to use your JSON data in your templates, it is crucial to ensure that it is legitimate and well-formed. Rendering your templates will fail if the JSON data is invalid. You can use a tool like JSONLint to verify that your JSON data is valid and well-formed. Using the appropriate template tags and syntax when working with JSON data in your templates comes after you have confirmed that your JSON data is legitimate and well-formed. 
+
+When attempting to render your templates, incorrect syntax will also result in errors. Depending on the template engine you're using, different template tags and syntax will apply. For instance, {{ object.key }} is the proper syntax to retrieve data in a JSON object when using the Jinja2 template engine. When working with JSON data, it's also important to remember that it's frequently nested, which means that one object may contain arrays or other objects. 
+
+Working with this can be challenging because nested data structures require caution when accessing data. To access the data in the "bar" object, for instance, you would need to do {{ foo.bar }} if you had a "JSON object with a key" called "foo" that contained another "JSON object with a key" called "bar." Lastly, testing your templates before putting them on your website is always a smart idea. 
+
+By doing this, you can make sure that everything is operating as it should and find any mistakes that might have gotten lost. Testing can be as easy as using a tool like Selenium to automate testing or as easy as running your templates locally on your PC to ensure proper rendering.
