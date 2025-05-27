@@ -1,5 +1,5 @@
 # CS-465-Full-Stack-Development-I
-1) 2What were the most challenging aspects of the installation process for you?
+1) What were the most challenging aspects of the installation process for you?
 
    I didn't really have problems with any of the installations because I have been installing software applications for quite a while. 
 
