@@ -11,7 +11,7 @@
 5) How is JSON different from Javascript and how does JSON tie together the frontend and backend development pieces?
 Provide instances in the full stack process when you refactored code to improve functionality and efficiencies, and name the benefits that come from reusable user interface (UI) components.
 
-Key-value pairs make up the lightweight, text-based JSON (JavaScript Object Notation) data format that is used for data storage and transmission.  Although it is derived from JavaScript object literal syntax, it is independent of language.   It is employed in data exchange.  This was extremely important to the creation of this application because all of the different applications used either Javascript, HTML, or TypeScript.  JSON bridges the gap between frontend and backend development by providing a common language for data exchange. 
+   Key-value pairs make up the lightweight, text-based JSON (JavaScript Object Notation) data format that is used for data storage and transmission.  Although it is derived from JavaScript object literal syntax, it is independent of language.   It is employed in data exchange.  This was extremely important to the creation of this application because all of the different applications used either Javascript, HTML, or TypeScript.  JSON bridges the gap between frontend and backend development by providing a common language for data exchange. 
 
 5) Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. Explain your understanding of methods, endpoints, and security in a full stack application.
 
